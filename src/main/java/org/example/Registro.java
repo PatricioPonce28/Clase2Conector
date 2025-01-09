@@ -21,6 +21,7 @@ public class Registro {
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                // Aquí colocar el login
                 new Login();
             }
         });
